@@ -14,7 +14,7 @@ import org.mapstruct.Named;
 import java.util.Collections;
 import java.util.List;
 
-@Mapper(builder = @Builder(disableBuilder = true), componentModel = "spring", imports = java.time.format.DateTimeFormatter.class)
+@Mapper(componentModel = "spring", imports = java.time.format.DateTimeFormatter.class)
 public interface OrderMapper {
 
 
